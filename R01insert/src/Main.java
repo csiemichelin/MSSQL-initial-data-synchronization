@@ -14,8 +14,8 @@ public class Main {
         String user_account = SQLScanner.next();
         String password = SQLScanner.next();
 
-        int min = 1020201;
-        int max = 1020302;
+        int min = 1120201;
+        int max = 1120302;
 
         String connectionUrl =
                 "jdbc:sqlserver://" + DB_IP + ":" + DB_port + ";"
