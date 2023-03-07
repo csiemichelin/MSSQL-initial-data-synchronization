@@ -7,7 +7,7 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         Scanner SQLScanner = new Scanner(System.in);
-        System.out.println("Enter DB IP, DB port, DB name, user account, password, owner, table, source drive, destination drive and prefix folder : ");
+        System.out.println("Enter DB IP, DB port, DB name, user account, password, owner : ");
         String DB_IP = SQLScanner.next();
         String DB_port = SQLScanner.next();
         String DB_name = SQLScanner.next();
