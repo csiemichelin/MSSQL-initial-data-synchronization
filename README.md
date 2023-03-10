@@ -21,15 +21,17 @@ ALTER TABLE FISH.SCRIPT_ATT ALTER COLUMN CRMYY VARCHAR(6) NOT NULL;
 ```SQL
 TRUNCATE TABLE FISH.SCRIPT
 ```
-ALTER TABLE FISH.SCRIPT_ATT ALTER COLUMN CRMYY VARCHAR(6) NOT NULL;
+## 
 ## Input範例
-1. Algorithm1 input example :    
+1. SQL_Algorithm1 input example :    
 >10.0.2.15 1433 FISHDB michelin itricuju FISH TestTable C E fs  
-2. Algorithm2 input example :    
+2. SQL_Algorithm2 input example :    
 >10.0.2.15 1433 FISHDB michelin itricuju FISH SCRIPT C E fs  
 >10.0.2.15 1433 FISHDB michelin itricuju FISH SCRIPT_ATT C E fs  
-3. Algorithm3 input example :   
+3. SQL_Algorithm3 input example :   
 >C:\fs\nw\FISH\alg3 E   
-4. XXXinsert input example :     
+4. SQL_Algorithm4 input example :   
+>C:\fs\nw\FISH E  
+5. XXXinsert input example :     
 >10.0.2.15 1433 FISHDB michelin itricuju  
 
