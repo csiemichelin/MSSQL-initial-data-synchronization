@@ -30,22 +30,21 @@ TRUNCATE TABLE FISH.SCRIPT
 1. SQL_Algorithm1 包含:
 	* TestTableinsert input :   
 		>10.0.2.15 1433 FISHDB michelin itricuju    
-* R01insert input :    
->10.0.2.15 1433 FISHDB michelin itricuju    
+	* R01insert input :    
+		>10.0.2.15 1433 FISHDB michelin itricuju    
 2. SQL_Algorithm2 包含:
-* SCRIPTinsert input :   
->10.0.2.15 1433 FISHDB michelin itricuju    
-* SCRIPT_ATTinsert input :    
->10.0.2.15 1433 FISHDB michelin itricuju   
-3. SQL_Algorithm2 :  
+	* SCRIPTinsert input :   
+		>10.0.2.15 1433 FISHDB michelin itricuju    
+	* SCRIPT_ATTinsert input :    
+		>10.0.2.15 1433 FISHDB michelin itricuju   
 ## Input範例
 1. SQL_Algorithm1 input example :    
->10.0.2.15 1433 FISHDB michelin itricuju FISH TestTable C E fs  
+	>10.0.2.15 1433 FISHDB michelin itricuju FISH TestTable C E fs  
 2. SQL_Algorithm2 input example :    
->10.0.2.15 1433 FISHDB michelin itricuju FISH SCRIPT C E fs  
->10.0.2.15 1433 FISHDB michelin itricuju FISH SCRIPT_ATT C E fs  
+	>10.0.2.15 1433 FISHDB michelin itricuju FISH SCRIPT C E fs  
+	>10.0.2.15 1433 FISHDB michelin itricuju FISH SCRIPT_ATT C E fs  
 3. SQL_Algorithm3 input example :   
->C:\fs\nw\FISH\alg3 E   
+	>C:\fs\nw\FISH\alg3 E   
 4. SQL_Algorithm4 input example :   
->C:\fs\nw\FISH E  
+	>C:\fs\nw\FISH E  
 
