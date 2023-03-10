@@ -4,9 +4,12 @@
 1. Windows 11
 2. Project SDK 17 (Eclipse Temurin version 17.0.5)
 ## Table 創建/調整欄位/清空全部欄位
-1. 
-2. 
-3. 
+```SQL
+ALTER TABLE FISH.SCRIPT_ATT ALTER COLUMN CRMYY VARCHAR(6) NOT NULL;
+```
+```SQL
+TRUNCATE TABLE FISH.SCRIPT
+```
 ALTER TABLE FISH.SCRIPT_ATT ALTER COLUMN CRMYY VARCHAR(6) NOT NULL;
 ## Input範例
 1. Algorithm1 input example :    
