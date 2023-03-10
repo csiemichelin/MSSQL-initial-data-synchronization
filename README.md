@@ -28,8 +28,8 @@ TRUNCATE TABLE FISH.SCRIPT
 ```
 ## Table欄位測試資料建立
 1. SQL_Algorithm1 包含:
-* TestTableinsert input :   
->10.0.2.15 1433 FISHDB michelin itricuju    
+	* TestTableinsert input :   
+		>10.0.2.15 1433 FISHDB michelin itricuju    
 * R01insert input :    
 >10.0.2.15 1433 FISHDB michelin itricuju    
 2. SQL_Algorithm2 包含:
