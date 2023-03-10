@@ -5,6 +5,17 @@
 2. Project SDK 17 (Eclipse Temurin version 17.0.5)
 ## Table 創建/調整欄位/清空全部欄位
 ```SQL
+CREATE TABLE [FISH].[TestTable](
+	[CRMYY] [nvarchar](6) NULL,
+	[CRMID] [nvarchar](20) NOT NULL,
+	[CRMNO] [nvarchar](6) NOT NULL,
+	[CHKNO] [nvarchar](6) NOT NULL,
+	[ORGNO] [nvarchar](6) NULL,
+	[FILENM] [nvarchar](60) NULL
+) ON [PRIMARY]
+GO
+```
+```SQL
 ALTER TABLE FISH.SCRIPT_ATT ALTER COLUMN CRMYY VARCHAR(6) NOT NULL;
 ```
 ```SQL
