@@ -2,8 +2,9 @@
 透過SQL Query對SQL server進行欄位比對，依照時間排序，將遠端磁碟資料載入到自己的磁碟中
 ## 環境配置
 1. Windows 11
-2. Project SDK 17 (Eclipse Temurin version 17.0.5)
-3. 利用java程式像是client端與sql server建立操作，要先在File->Project Structure->Modules->Dependencies->加入JARs導入兩個jar檔 :  
+2. Project SDK 17 (Eclipse Temurin version 17.0.5)    
+3. Microsoft SQL Server Management Studio    
+4. 利用java程式像是client端與sql server建立操作，要先在File->Project Structure->Modules->Dependencies->加入JARs導入兩個jar檔 :  
 ![](https://i.imgur.com/iO9IfRZ.png)
 ## Table 創建/調整欄位/清空全部欄位
 ```SQL
