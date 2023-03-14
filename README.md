@@ -6,6 +6,8 @@
 3. Microsoft SQL Server Management Studio    
 4. 利用java程式像是client端與sql server建立操作，要先在File->Project Structure->Modules->Dependencies->加入JARs導入兩個jar檔 :  
 ![](https://i.imgur.com/iO9IfRZ.png)
+## 新增Schema  
+![image](https://user-images.githubusercontent.com/49907717/224913323-b6f632b9-8b5b-418b-a091-afa480845b5c.png)
 ## Table 創建/調整欄位/清空全部欄位
 ```SQL
 USE FISHDB
